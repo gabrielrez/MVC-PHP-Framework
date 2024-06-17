@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# Aceitar carregamento de arquivos e diretórios reais
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Redirecionar tudo para o index.php
+RewriteRule ^(.*)$ index.php?url=$1 [L,QSA]
