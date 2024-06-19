@@ -74,9 +74,8 @@ A estrutura do projeto é organizada da seguinte forma:
         </ul>
     </li>
 </ul>
+<br>
 
-
-## Explicação da estrutura de diretórios
 - `app/controllers/`: Contém os controladores do projeto.
 - `app/core/`: Contém as classes principais do framework, como a classe `App` que gerencia a aplicação.
 - `app/models/`: Local onde serão adicionados os modelos (em desenvolvimento).
