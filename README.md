@@ -21,31 +21,59 @@ Este projeto é um microframework MVC (Model-View-Controller) simples, ideal par
 
 A estrutura do projeto é organizada da seguinte forma:
 
-Microframework-MVC/
-├── app/
-│   ├── controllers/
-|       ├── HomeController.php
-|       ├── _404Controller.php
-|   ├── core/
-│       ├── App.php
-│       ├── Controller.php
-│       ├── Database.php
-│       ├── Model.php
-│       ├── config.php
-│       ├── functions.php
-│       ├── init.php
-│       ├── views/
-|  ├── views/
-|       ├── home.view.php
-|       ├── 404.view.php
-├── public/
-│   ├── assets/
-│       ├── imgs/
-│       ├── styles/
-|           ├── system-styles/
-|               ├── home-controller.css
-|               ├── not-found.css
-│       ├── js/
+    <ul>
+        <li>Microframework-MVC/
+            <ul>
+                <li>app/
+                    <ul>
+                        <li>controllers/
+                            <ul>
+                                <li>HomeController.php</li>
+                                <li>_404Controller.php</li>
+                            </ul>
+                        </li>
+                        <li>core/
+                            <ul>
+                                <li>App.php</li>
+                                <li>Controller.php</li>
+                                <li>Database.php</li>
+                                <li>Model.php</li>
+                                <li>config.php</li>
+                                <li>functions.php</li>
+                                <li>init.php</li>
+                            </ul>
+                        </li>
+                        <li>views/
+                            <ul>
+                                <li>home.view.php</li>
+                                <li>404.view.php</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>public/
+                    <ul>
+                        <li>assets/
+                            <ul>
+                                <li>imgs/</li>
+                                <li>styles/
+                                    <ul>
+                                        <li>system-styles/
+                                            <ul>
+                                                <li>home-controller.css</li>
+                                                <li>not-found.css</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>js/</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
 
 
 - `app/controllers/`: Contém os controladores do projeto.
