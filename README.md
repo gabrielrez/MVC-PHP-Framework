@@ -74,6 +74,8 @@ A estrutura do projeto é organizada da seguinte forma:
         </ul>
     </li>
 </ul>
+
+<br>
 <br>
 
 - `app/controllers/`: Contém os controladores do projeto.
